@@ -1,0 +1,19 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  scroll-snap-align: start;
+  height: 70vh;
+
+  /* unrelated visual styling */
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 40px;
+  box-sizing: border-box;
+}

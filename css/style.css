@@ -1,4 +1,4 @@
-html {
+/* html {
   scroll-snap-type: y mandatory;
 }
 
@@ -9,11 +9,24 @@ body {
 .section {
   scroll-snap-align: start;
   height: 70vh;
+} */
 
-  /* unrelated visual styling */
-  color: white;
-  font-size: 30px;
-  font-weight: bold;
-  padding: 40px;
-  box-sizing: border-box;
+#myVideo {
+  display: flex;
+}
+
+#myVideo2 {
+  left: 0;
+}
+
+video {
+  min-width: none !important;
+}
+
+.fundo {
+  position: fixed;
+  right: 0;
+  bottom: -50%;
+  min-width: 100%;
+  min-height: 100%;
 }

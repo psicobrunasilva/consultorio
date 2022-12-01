@@ -39,3 +39,14 @@ iframe {
 .mt-3 {
   margin-top: 0 !important;
 }
+
+@media only screen and (max-width: 1440px) {
+  .about-img {
+    margin-right: 15px;
+  }
+  .about-img {
+    margin: 20px auto 0px;
+    position: relative;
+    width: 73%;
+  }
+}

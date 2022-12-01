@@ -49,6 +49,12 @@
     <script defer src="js/custom.js"></script>
 
     <script defer src="js/script.js"></script>
+
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+    ></script>
   </head>
 
   <body>
@@ -64,7 +70,9 @@
       <header id="header">
         <div class="container-fluid">
           <div class="navbar">
-            <a href="#" id="logo" title="Elegance by TemplateMo"> Title </a>
+            <a href="#" id="logo" title="Elegance by TemplateMo">
+              Bruna Silva
+            </a>
             <div class="navigation-row">
               <nav id="navigation">
                 <button type="button" class="navbar-toggle">
@@ -73,25 +81,25 @@
                 <div class="nav-box navbar-collapse">
                   <ul class="navigation-menu nav navbar-nav navbars" id="nav">
                     <li data-menuanchor="slide01" class="active">
-                      <a href="#slide01">Home</a>
+                      <a href="#slide01">Inicio</a>
                     </li>
                     <li data-menuanchor="slide02">
-                      <a href="#slide02">About Me</a>
+                      <a href="#slide02">Sobre mim</a>
                     </li>
                     <li data-menuanchor="slide03">
-                      <a href="#slide03">Services</a>
+                      <a href="#slide03">Especialidades</a>
                     </li>
-                    <li data-menuanchor="slide04">
+                    <!-- <li data-menuanchor="slide04">
                       <a href="#slide04">My Skills</a>
+                    </li> -->
+                    <li data-menuanchor="slide04">
+                      <a href="#slide04">Fotos</a>
                     </li>
                     <li data-menuanchor="slide05">
-                      <a href="#slide05">My Work</a>
+                      <a href="#slide05">Relato dos pacientes</a>
                     </li>
                     <li data-menuanchor="slide06">
-                      <a href="#slide06">Testimonials</a>
-                    </li>
-                    <li data-menuanchor="slide07">
-                      <a href="#slide07">Contact Me</a>
+                      <a href="#slide06">Fale comigo</a>
                     </li>
                   </ul>
                 </div>
@@ -122,16 +130,13 @@
           <div class="section-inner">
             <div class="welcome-box">
               <span class="welcome-first animate" data-animate="fadeInUp"
-                >Hello, welcome to</span
+                >Olá, bem vindo!</span
               >
               <h1 class="welcome-title animate" data-animate="fadeInUp">
-                elegance
+                Bem vindo!
               </h1>
               <p class="animate" data-animate="fadeInUp">
-                This is a clean and modern HTML5 template with a video
-                background. You can use this layout for your profile page.
-                Please spread a word about templatemo to your friends. Thank
-                you.
+                Esse é o consutorio da Bruna Silva
               </p>
               <div class="scroll-down next-section animate
               data-animate="fadeInUp""><img
@@ -152,8 +157,8 @@
                   <div class="col-md-6">
                     <div class="about-contentbox">
                       <div class="animate" data-animate="fadeInUp">
-                        <span>About Me</span>
-                        <h2>Who am i?</h2>
+                        <span>Sobre mim</span>
+                        <h2>Quem eu sou?</h2>
                         <p>
                           Credits go to <strong>Unsplash</strong> and
                           <strong>Pexels</strong> for photos and video used in
@@ -231,8 +236,8 @@
           <div class="row justify-content-center">
             <div class="col-md-8 wide-col-laptop">
               <div class="title-block animate" data-animate="fadeInUp">
-                <span>Services</span>
-                <h2>What I Do?</h2>
+                <span>Especialidades</span>
+                <h2>Minhas Especialidades</h2>
               </div>
               <div class="services-section">
                 <div class="services-list owl-carousel">
@@ -339,7 +344,7 @@
         </div>
       </div>
 
-      <div class="section animated-row" data-section="slide04">
+      <!-- <div class="section animated-row" data-section="slide04">
         <div class="section-inner">
           <div class="row justify-content-center">
             <div class="col-md-7 wide-col-laptop">
@@ -384,25 +389,45 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="section animated-row" data-section="slide06">
+      <div class="section animated-row" data-section="slide04">
         <div class="section-inner">
           <div class="row justify-content-center">
             <div class="col-md-8 wide-col-laptop">
               <div class="title-block animate" data-animate="fadeInUp">
-                <span>My Work</span>
-                <h2>what i’ve done?</h2>
+                <span>Fotos</span>
+                <h2>Consutorio</h2>
               </div>
               <div class="gallery-section">
                 <div class="gallery-list owl-carousel">
                   <div class="item animate" data-animate="fadeInUp">
                     <div class="portfolio-item">
                       <div class="thumb">
-                        <img src="images/item-1.jpg" alt="" />
+                        <img
+                          src="images/WhatsApp Image 2022-11-30 at 10.40.13.jpeg"
+                          alt=""
+                        />
                       </div>
                       <div class="thumb-inner animate" data-animate="fadeInUp">
-                        <h4>templatemo is the best</h4>
+                        <h4>Sala de recepção</h4>
+                        <p>
+                          Esta é a sala de recepção, aonde podem ficar os
+                          acompanhantes dos pacientes
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="portfolio-item">
+                      <div class="thumb">
+                        <img
+                          src="images/WhatsApp Image 2022-11-30 at 10.41.15.jpeg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-inner animate" data-animate="fadeInUp">
+                        <h4>Futura foto do consultorio</h4>
                         <p>
                           Please tell your friends about it. Templatemo is the
                           best website to download free Bootstrap CSS templates.
@@ -413,24 +438,10 @@
                   <div class="item animate" data-animate="fadeInUp">
                     <div class="portfolio-item">
                       <div class="thumb">
-                        <img src="images/item-2.jpg" alt="" />
+                        <img src="images/logo-imagem.jpeg" alt="" />
                       </div>
                       <div class="thumb-inner animate" data-animate="fadeInUp">
-                        <h4>templatemo is the best</h4>
-                        <p>
-                          Please tell your friends about it. Templatemo is the
-                          best website to download free Bootstrap themes.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item animate" data-animate="fadeInUp">
-                    <div class="portfolio-item">
-                      <div class="thumb">
-                        <img src="images/item-3.jpg" alt="" />
-                      </div>
-                      <div class="thumb-inner animate" data-animate="fadeInUp">
-                        <h4>templatemo is the best</h4>
+                        <h4>Futura foto do consultorio</h4>
                         <p>
                           Please tell your friends about it. Templatemo is the
                           best website to download free Bootstrap layouts.
@@ -441,10 +452,10 @@
                   <div class="item animate" data-animate="fadeInUp">
                     <div class="portfolio-item">
                       <div class="thumb">
-                        <img src="images/item-1.jpg" alt="" />
+                        <img src="images/logo-imagem.jpeg" alt="" />
                       </div>
                       <div class="thumb-inner animate" data-animate="fadeInUp">
-                        <h4>templatemo is the best</h4>
+                        <h4>Futura foto do consultorio</h4>
                         <p>
                           Please tell your friends about it. Templatemo is the
                           best website to download free Bootstrap templates.
@@ -455,10 +466,10 @@
                   <div class="item animate" data-animate="fadeInUp">
                     <div class="portfolio-item">
                       <div class="thumb">
-                        <img src="images/item-2.jpg" alt="" />
+                        <img src="images/logo-imagem.jpeg" alt="" />
                       </div>
                       <div class="thumb-inner animate" data-animate="fadeInUp">
-                        <h4>templatemo is the best</h4>
+                        <h4>Futura foto do consultorio</h4>
                         <p>
                           Please tell your friends about it. Templatemo is the
                           best website to download Bootstrap CSS templates.
@@ -469,10 +480,10 @@
                   <div class="item animate" data-animate="fadeInUp">
                     <div class="portfolio-item">
                       <div class="thumb">
-                        <img src="images/item-3.jpg" alt="" />
+                        <img src="images/logo-imagem.jpeg" alt="" />
                       </div>
                       <div class="thumb-inner animate" data-animate="fadeInUp">
-                        <h4>templatemo is the best</h4>
+                        <h4>Futura foto do consultorio</h4>
                         <p>
                           Please tell your friends about it. Templatemo is the
                           best website to download free Bootstrap templates.
@@ -483,10 +494,10 @@
                   <div class="item animate" data-animate="fadeInUp">
                     <div class="portfolio-item">
                       <div class="thumb">
-                        <img src="images/item-1.jpg" alt="" />
+                        <img src="images/logo-imagem.jpeg" alt="" />
                       </div>
                       <div class="thumb-inner animate" data-animate="fadeInUp">
-                        <h4>templatemo is the best</h4>
+                        <h4>Futura foto do consultorio</h4>
                         <p>
                           Please tell your friends about it. Templatemo is the
                           best website to download free Bootstrap templates.
@@ -497,10 +508,10 @@
                   <div class="item animate" data-animate="fadeInUp">
                     <div class="portfolio-item">
                       <div class="thumb">
-                        <img src="images/item-2.jpg" alt="" />
+                        <img src="images/logo-imagem.jpeg" alt="" />
                       </div>
                       <div class="thumb-inner animate" data-animate="fadeInUp">
-                        <h4>templatemo is the best</h4>
+                        <h4>Futura foto do consultorio</h4>
                         <p>
                           Please tell your friends about it. Templatemo is the
                           best website to download free Bootstrap templates.
@@ -511,10 +522,10 @@
                   <div class="item animate" data-animate="fadeInUp">
                     <div class="portfolio-item">
                       <div class="thumb">
-                        <img src="images/item-3.jpg" alt="" />
+                        <img src="images/logo-imagem.jpeg" alt="" />
                       </div>
                       <div class="thumb-inner animate" data-animate="fadeInUp">
-                        <h4>templatemo is the best</h4>
+                        <h4>Futura foto do consultorio</h4>
                         <p>
                           Please tell your friends about it. Templatemo is the
                           best website to download free Bootstrap templates.
@@ -534,8 +545,8 @@
           <div class="row justify-content-center">
             <div class="col-md-8 wide-col-laptop">
               <div class="title-block animate" data-animate="fadeInUp">
-                <span>TESTIMONIALS</span>
-                <h2>what THEY SAY?</h2>
+                <span>Relatos</span>
+                <h2>Relato dos pacientes</h2>
               </div>
               <div class="col-md-8 offset-md-2">
                 <div class="testimonials-section">
@@ -550,7 +561,7 @@
                           />
                         </div>
                         <div class="testimonial-content">
-                          <h4>Sandar</h4>
+                          <h4>Sophia</h4>
                           <p>
                             "Ut varius leo eu mauris lacinia, eleifend posuere
                             urna gravida. Aenean a mattis lacus."
@@ -569,7 +580,7 @@
                           />
                         </div>
                         <div class="testimonial-content">
-                          <h4>Shinn</h4>
+                          <h4>Tali</h4>
                           <p>
                             "Nam iaculis, leo nec facilisis sollicitudin, dui
                             massa tempus odio, vitae malesuada ante elit vitae
@@ -589,7 +600,7 @@
                           />
                         </div>
                         <div class="testimonial-content">
-                          <h4>Marlar</h4>
+                          <h4>Marcia</h4>
                           <p>
                             "Etiam efficitur, tortor facilisis finibus semper,
                             diam magna fringilla lectus, et fringilla felis urna
@@ -607,64 +618,42 @@
         </div>
       </div>
 
-      <div class="section animated-row" data-section="slide07">
+      <div class="section animated-row" data-section="slide06">
         <div class="section-inner">
           <div class="row justify-content-center">
             <div class="col-md-7 wide-col-laptop">
               <div class="title-block animate" data-animate="fadeInUp">
-                <span>Contact</span>
-                <h2>Get In Touch!</h2>
+                <span>Contato</span>
+                <h2>Aonde me encontrar</h2>
               </div>
               <div class="contact-section">
                 <div class="row">
                   <div class="col-md-6 animate" data-animate="fadeInUp">
                     <div class="contact-box">
                       <div class="contact-row">
-                        <i class="fa fa-map-marker"></i> 123 New Street Here,
-                        Wonderful City 10220
+                        <i class="fa fa-map-marker"></i> R. Dr. Motta Júnior,
+                        1099 - sala 2 - Centro
                       </div>
                       <div class="contact-row">
-                        <i class="fa fa-phone"></i> 090 080 0210
+                        <i class="fa fa-phone"></i> +55 41 992251708
                       </div>
                       <div class="contact-row">
-                        <i class="fa fa-envelope"></i> info@company.co
+                        <i class="fa fa-envelope"></i> brunapsicoufpr@gmail.com
                       </div>
                     </div>
                   </div>
                   <div class="col-md-6 animate" data-animate="fadeInUp">
-                    <form id="ajax-contact" method="post" action="#">
-                      <div class="input-field">
-                        <input
-                          type="text"
-                          class="form-control"
-                          name="name"
-                          id="name"
-                          required
-                          placeholder="Name"
-                        />
-                      </div>
-                      <div class="input-field">
-                        <input
-                          type="email"
-                          class="form-control"
-                          name="email"
-                          id="email"
-                          required
-                          placeholder="Email"
-                        />
-                      </div>
-                      <div class="input-field">
-                        <textarea
-                          class="form-control"
-                          name="message"
-                          id="message"
-                          required
-                          placeholder="Message"
-                        ></textarea>
-                      </div>
-                      <button class="btn" type="submit">Submit</button>
-                    </form>
-                    <div id="form-messages" class="mt-3"></div>
+                    <div id="form-messages" class="mt-3">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.0226964720605!2d-49.205451785531075!3d-25.53762088373902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfa077f03ffff%3A0xf349575478f857ea!2sR.%20Dr.%20Motta%20J%C3%BAnior%2C%201099%20-%20sala%202%20-%20Centro%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Pinhais%20-%20PR%2C%2083005-170!5e0!3m2!1spt-BR!2sbr!4v1669906439635!5m2!1spt-BR!2sbr"
+                        width="100%"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                      ></iframe>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -678,16 +667,27 @@
       <div class="text-right">
         <ul class="social-icons">
           <li>
-            <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="#" title="Facebook"
+              ><i class="fa fa-facebook"></i
+            ></a>
           </li>
           <li>
-            <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+            <a target="_blank" href="#" title="Linkedin"
+              ><i class="fa fa-linkedin"></i
+            ></a>
           </li>
           <li>
-            <a href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+            <a target="_blank" href="#" title="Instagram"
+              ><i class="fa fa-instagram"></i
+            ></a>
           </li>
           <li>
-            <a href="#" title="Instagram"><i class="fa fa-behance"></i></a>
+            <a
+              target="_blank"
+              href="https://wa.me/5540028922?text=Ola%20boa%20tarde!"
+              title="WhatsApp"
+              ><i class="fa fa-whatsapp"></i
+            ></a>
           </li>
         </ul>
       </div>

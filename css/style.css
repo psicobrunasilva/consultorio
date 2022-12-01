@@ -30,3 +30,12 @@ video {
   min-width: 100%;
   min-height: 100%;
 }
+
+iframe {
+  border-radius: 4%;
+  /* width: 500px; */
+}
+
+.mt-3 {
+  margin-top: 0 !important;
+}

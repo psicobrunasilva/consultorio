@@ -50,3 +50,9 @@ iframe {
     width: 73%;
   }
 }
+
+@media only screen and (max-width: 780px) {
+  .fundo {
+    display: none;
+  }
+}

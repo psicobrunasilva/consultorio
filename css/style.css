@@ -54,6 +54,7 @@ iframe {
 @media only screen and (max-width: 780px) {
   .fundo {
     display: none;
+    /* bottom: 0; */
   }
   html {
     scroll-snap-type: y mandatory;

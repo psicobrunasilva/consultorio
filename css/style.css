@@ -23,6 +23,25 @@ body {
   display: flex;
 }
 
+.welcome-title {
+  font-size: 55px;
+  /* font-weight: 100; */
+  font-family: "Tiro Tamil", serif;
+  text-transform: none !important;
+  margin: 13px 0 0 0 !important;
+  /* color: #a2e9cf85; */
+}
+
+.welcome-box p {
+  font-family: "Gowun Batang", serif;
+  font-size: 36px;
+}
+
+#baixo {
+  font-family: "Gowun Batang", serif;
+  font-size: 36px;
+}
+
 #myVideo2 {
   left: 0;
 }
@@ -34,7 +53,7 @@ video {
 .fundo {
   position: fixed;
   right: 0;
-  bottom: -50%;
+  bottom: -27%;
   min-width: 100%;
   min-height: 100%;
 }
@@ -48,6 +67,14 @@ iframe {
   margin-top: 0 !important;
 }
 
+small {
+  font-size: 14px;
+}
+
+.video {
+  width: 250px;
+}
+
 @media only screen and (max-width: 1440px) {
   .about-img {
     margin-right: 15px;
@@ -57,6 +84,13 @@ iframe {
     position: relative;
     width: 73%;
   }
+}
+
+.welcome-title {
+  /* font-family: "Alex Brush", cursive; */
+  /* font-weight: none;
+  font-weight: 700;
+  text-transform: none; */
 }
 
 @media only screen and (max-width: 780px) {
